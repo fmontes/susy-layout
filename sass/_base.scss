@@ -1,0 +1,24 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "compass";
+@import "normalize";
+@import "susy";
+
+
+// ---------------------------------------------------------------------------
+// Basic Grid
+
+//$container-width : 95%;
+$container-style: fluid;
+
+$total-columns: 4;
+$column-width: 60px;
+$gutter-width: 20px;
+$grid-padding: 20px;
+
+// Alternative layouts
+$tablet: 40em 8;
+$computer: 60em 12;
+
+$show-grid-backgrounds  : true;
